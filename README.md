@@ -3,11 +3,11 @@ The Game of Life is set in an infinite two-dimensional grid inhabited by “cell
 
 # Download: 
 Open up a terminal window and type the following command
-git clone https://github.com/k4my4b/Game_of_Life.git
+> git clone https://github.com/k4my4b/Game_of_Life.git
 
 # Compile:
-cd Game_of_Life/
-gcc -Wall -Werror -O3 src/*.c -o game
+> cd Game_of_Life/
+> gcc -Wall -Werror -O3 src/*.c -o game
 
 # Execute:
-./game seed.txt 
+> ./game seed.txt 
