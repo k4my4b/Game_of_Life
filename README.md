@@ -7,6 +7,7 @@ Open up a terminal window and type the following command
 
 # Compile:
 > cd Game_of_Life/
+
 > gcc -Wall -Werror -O3 src/*.c -o game
 
 # Execute:
