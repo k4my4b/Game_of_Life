@@ -13,6 +13,20 @@ Open up a terminal window and type the following command
 # Execute:
 > ./game seed.txt 
 
+# Usage
+The program requires that a file containing the seed grid is present. 
+You may provide the file URI via a launch argument e.g. ./game seed.txt or simply launch the program on its own i.e. ./game, in which case you will then be asked to provide a valid file URI. 
+(you will also be asked to provide the number of iterations to evolve the grid) 
+
+Seed file is expected to have the following format
+
+>             3           // size/width of the grid 
+>             0 0 0       // 1st row
+>             1 1 1       // nth row
+>             0 0 0       // last row, each consists of columns of 1s and 0s (seperated by white space) where 1 = live cell and 0 = dead
+
+Modify the example seed.txt file to your liking, making sure you adhear to the formatting. 
+
 # Assumptions
 1- Grid is an N x N adjacency matrix, and that by "infinite" we simply mean N can be any number and so we should be able to accommodate for any size grid as long as we have the memory/space for it. 
 
