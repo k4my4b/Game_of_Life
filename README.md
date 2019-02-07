@@ -20,4 +20,4 @@ Open up a terminal window and type the following command
 
 3- "Game of life" is indeed refering to Conway's Game of life. 
 
-4- If the grid empty evolution still takes place (but nothing comes to life). 
+4- If the grid is empty (all cells are dead) evolution still takes place (but nothing comes to life). 
