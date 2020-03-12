@@ -27,7 +27,7 @@ Seed file is expected to have the following format
 
 Modify the example seed.txt file to your liking, making sure you adhere to the format described above. 
 
-# Assumptions
+<!-- # Assumptions
 1- Grid is an N x N adjacency matrix, and that by "infinite" we simply mean N can be any number and so we should be able to accommodate for any size grid as long as we have the memory/space for it. 
 
 2- The instructions state "given a game of life", here the method of delivery is not defined and open to interpretation. I have opted to use file I/O for this purpose. 
@@ -36,4 +36,4 @@ Modify the example seed.txt file to your liking, making sure you adhere to the f
 
 4- If the grid is empty (all cells are dead) evolution still takes place (but nothing comes to life). 
 
-5- Number of evolutions is not defined, I assumed this is variable and ask for it at runtime. 
+5- Number of evolutions is not defined, I assumed this is variable and ask for it at runtime.  -->
